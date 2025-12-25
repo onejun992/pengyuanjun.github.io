@@ -1,0 +1,91 @@
+<div class="bio-tabs">
+  <div class="bio-tabs__bar" role="tablist" aria-label="Language switch">
+    <button class="bio-tab is-active" type="button" data-target="bio-en">English</button>
+    <button class="bio-tab" type="button" data-target="bio-ko">한국어</button>
+    <button class="bio-tab" type="button" data-target="bio-ja">日本語</button>
+    <button class="bio-tab" type="button" data-target="bio-zh">中文</button>
+  </div>
+
+  <section id="bio-en" class="bio-panel is-active">
+    <h2>English</h2>
+    <p class="bio-name">PENG YUANJUN</p>
+    <p class="bio-title">Ph.D. (Doctor of Philosophy)</p>
+    <p>
+      I received my Ph.D. degree from <strong>Sangmyung University</strong>, South Korea, with a specialization in
+      <strong>Global Cultural Contents</strong>.
+    </p>
+    <p>
+      My research interests focus on <strong>cultural contents</strong> and <strong>cultural hybridity</strong> in East Asian contexts,
+      with particular attention to <strong>Japanese subcultural contents</strong> and <strong>ACG (Animation, Comics, and Games)</strong> culture.
+    </p>
+    <p>
+      I examine the <strong>transnational circulation</strong>, <strong>localization</strong>, and <strong>hybridization</strong> processes of cultural contents in contemporary East Asia.
+    </p>
+  </section>
+
+  <section id="bio-ko" class="bio-panel">
+    <h2>한국어</h2>
+    <p class="bio-name">팽원균</p>
+    <p class="bio-title">박사 (Ph.D.)</p>
+    <p>
+      저는 대한민국 <strong>상명대학교(Sangmyung University)</strong> 글로벌문화콘텐츠학과에서 박사학위를 취득하였습니다.
+    </p>
+    <p>
+      주요 연구 분야는 <strong>문화콘텐츠</strong>와 <strong>문화혼종성</strong>이며, 특히 <strong>일본 서브컬처 콘텐츠</strong>와
+      <strong>ACG(애니메이션·만화·게임)</strong> 문화에 주목하고 있습니다.
+    </p>
+    <p>
+      또한 동아시아 맥락에서 문화콘텐츠의 <strong>초국가적 유통</strong>, <strong>현지화</strong>, <strong>혼종화</strong> 과정을 연구하고 있습니다.
+    </p>
+  </section>
+
+  <section id="bio-ja" class="bio-panel">
+    <h2>日本語</h2>
+    <p class="bio-name">ほうげん（彭塬鈞）</p>
+    <p class="bio-title">博士（Ph.D.）</p>
+    <p>
+      韓国の<strong>祥明大学校（Sangmyung University）</strong>にて、グローバル文化コンテンツ学科を専攻し、博士号を取得しました。
+    </p>
+    <p>
+      主な研究関心は<strong>文化コンテンツ</strong>と<strong>文化の混種（ハイブリディティ）</strong>であり、
+      特に<strong>日本のサブカルチャーコンテンツ</strong>および<strong>ACG（アニメ・マンガ・ゲーム）</strong>文化に注目しています。
+    </p>
+    <p>
+      また、現代東アジアにおける文化コンテンツの<strong>越境的流通</strong>、<strong>ローカライゼーション</strong>、<strong>ハイブリッド化</strong>のプロセスを考察しています。
+    </p>
+  </section>
+
+  <section id="bio-zh" class="bio-panel">
+    <h2>中文</h2>
+    <p class="bio-name">彭塬鈞（PENG YUANJUN）</p>
+    <p class="bio-title">博士（已获得博士学位）</p>
+    <p>
+      我毕业于韩国<strong>祥明大学（Sangmyung University / 상명대학교）</strong>全球文化内容学科（文化内容专业），并已获得博士学位。
+    </p>
+    <p>
+      我的研究方向聚焦于<strong>文化内容</strong>与<strong>文化混种</strong>，尤其关注<strong>日本亚文化内容</strong>及<strong>ACG（动画、漫画与游戏）</strong>文化内容。
+    </p>
+    <p>
+      我主要研究东亚语境下文化内容的<strong>跨国传播</strong>、<strong>本地化</strong>与<strong>混种化</strong>过程。
+    </p>
+  </section>
+</div>
+
+<script>
+  (function () {
+    const root = document.currentScript?.previousElementSibling;
+    if (!root) return;
+
+    const tabs = root.querySelectorAll(".bio-tab");
+    const panels = root.querySelectorAll(".bio-panel");
+
+    function activate(id) {
+      tabs.forEach((t) => t.classList.toggle("is-active", t.dataset.target === id));
+      panels.forEach((p) => p.classList.toggle("is-active", p.id === id));
+    }
+
+    tabs.forEach((btn) => {
+      btn.addEventListener("click", () => activate(btn.dataset.target));
+    });
+  })();
+</script>

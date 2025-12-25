@@ -12,7 +12,7 @@ Sangmyung University, Seoul, South Korea
 
 ---
 
-## Biography (English)
+## Research Profile (English)
 
 I received my Ph.D. degree from Sangmyung University (South Korea),  
 with a specialization in Global Cultural Contents.

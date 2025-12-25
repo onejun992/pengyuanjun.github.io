@@ -6,8 +6,8 @@ layout: page
 
 ## About Me
 
-Ph.D.
-Department of Global Culture Contents  
+Ph.D. (Doctor of Philosophy)
+Department of Global Culture Contents
 Sangmyung University, Seoul, South Korea
 
 ---
@@ -32,7 +32,7 @@ with an emphasis on cultural production, reception, and contextual meaning.
 
 <br/>
 
-저는 한국 상명대학교 글로벌문화콘텐츠학과에서  
+한국 상명대학교 글로벌문화콘텐츠학과에서  
 박사학위를 취득하였습니다.
 
 저의 주요 연구 분야는 문화콘텐츠 및 문화혼종성이며,  

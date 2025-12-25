@@ -122,6 +122,18 @@ with an emphasis on cultural production, reception, and contextual meaning.
 
 ---
 
+### Research Background
+
+My academic interest lies in cultural contents studies, with a particular focus on ACG (Animation, Comics, and Games) cultures and cultural hybridity in East Asia. My research is grounded in long-term engagement with Japanese popular culture and its transnational circulation, especially within contemporary Chinese digital media environments.
+
+I conceptualize culture as a dynamic and bidirectional process rather than a one-way flow from dominant to peripheral regions. Cultural exchange often involves reciprocal influence, conflict, negotiation, and eventual hybridization, producing new cultural forms and meanings. This perspective has guided my interest in cultural hybridity as a key analytical framework.
+
+My recent research has focused on the Chinese video-sharing platform Bilibili as a representative site of cultural hybridity, where Japanese subcultural elements, local youth cultures, and platform-based participatory practices intersect. In parallel, I examine the development of China’s cultural industries in the context of global cultural circulation, including the international expansion of digital games and animation since 2020.
+
+More broadly, my research aims to explore how cultural contents are produced, transformed, and circulated under conditions of globalization, and how platformization and transnational media practices contribute to the reconfiguration of cultural industries and cultural identities in contemporary East Asia.
+
+---
+
 ## Publications
 
 ### Journal Articles
@@ -131,8 +143,6 @@ with an emphasis on cultural production, reception, and contextual meaning.
   문화혼종성 관점에서 본 중국 동영상 플랫폼 비리비리(bilibili)에 관한 고찰: 세배기(拜年纪)를 중심으로.  
   *The Journal of Foreign Studies*, Foreign Studies Institute.  
   DOI: https://doi.org/10.15755/jfs.2024..70.613
-
----
 
 ### Conference Proceedings
 
@@ -147,8 +157,6 @@ with an emphasis on cultural production, reception, and contextual meaning.
   (2022).  
   중국 동영상 플랫폼 비리비리(bilibili)와 ACG/2차원 문화의 관계성 고찰.  
   *Proceedings of the Korean Cultural Contents Joint Academic Conference*.
-
----
 
 ### Academic Profiles
 

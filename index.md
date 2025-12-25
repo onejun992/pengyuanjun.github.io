@@ -189,6 +189,13 @@ More broadly, my research aims to explore how cultural contents are produced, tr
   Department of Korean–Japanese Cultural Contents,  
   Sangmyung University (Mar 2019 – Aug 2020)
 
+  - **Team Leader & Chief Coordinator**,  
+  International Student Representative Group,  
+  Creative Convergence Success Conference,  
+  Sangmyung University (March 2019 – June 2019).  
+  Led and coordinated a representative team participating in the university-wide  
+  creative contents exhibition competition on behalf of the department.
+
 - **Director**,  
   Sangmyung University Chinese Students and Scholars Association (SMUCSSA),  
   under the guidance of the Education Section,  

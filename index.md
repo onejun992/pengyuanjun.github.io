@@ -7,8 +7,8 @@ subtitle: <b>Sangmyung University</b>, Seoul, South Korea
 
 ## English
 
-**PENG YUANJUN**  
-Ph.D. (Doctor of Philosophy)
+### PENG YUANJUN
+*Ph.D. (Doctor of Philosophy)*
 
 I received my Ph.D. degree from **Sangmyung University**, South Korea, with a specialization in **Global Cultural Contents**.  
 My academic research focuses on **cultural contents**, **cultural hybridity**, and **East Asian popular culture**, with particular emphasis on **Japanese subcultural contents** and **ACG (Animation, Comics, and Games) culture**.
@@ -19,8 +19,8 @@ My research interests also include **comparative cultural contents studies** acr
 
 ## 한국어 (Korean)
 
-**팽원균**  
-박사 (Ph.D.)
+### 팽원균
+*박사 (Ph.D.)*
 
 저는 대한민국 **상명대학교(Sangmyung University)** 글로벌문화콘텐츠학과에서 **박사학위**를 취득하였습니다.  
 주요 연구 분야는 **문화콘텐츠**, **문화혼종성**, **일본 서브컬처 콘텐츠**, 그리고 **ACG(애니메이션·만화·게임) 문화**입니다.
@@ -31,8 +31,8 @@ My research interests also include **comparative cultural contents studies** acr
 
 ## 日本語 (Japanese)
 
-**ほうげん（彭塬鈞）**  
-博士（Ph.D.）
+### ほうげん（彭塬鈞）
+*博士（Ph.D.）*
 
 韓国の**祥明大学校（Sangmyung University）**にて、**グローバル文化コンテンツ学科**を専攻し、博士号を取得しました。  
 主な研究分野は、**文化コンテンツ研究**、**文化の混種（ハイブリディティ）**、および**日本のサブカルチャーコンテンツ**、特に**ACG（アニメ・マンガ・ゲーム）文化**です。

@@ -32,8 +32,8 @@ with an emphasis on cultural production, reception, and contextual meaning.
 
 <br/>
 
-Peng Yuanjun (팽원균)  
-박사 (Ph.D.)
+팽원균 
+박사
 
 저는 대한민국 상명대학교 글로벌문화콘텐츠학과에서  
 박사학위를 취득하였습니다.
@@ -55,8 +55,8 @@ Peng Yuanjun (팽원균)
 
 <br/>
 
-Peng Yuanjun（ほうげん／彭塬鈞）  
-博士（Ph.D.）
+ほうげんきん(彭塬鈞)  
+博士
 
 韓国・祥明大学校にて、グローバル文化コンテンツ学を専攻し、  
 博士号を取得しました。
@@ -78,8 +78,8 @@ ACG（アニメ・マンガ・ゲーム）文化に関心を持っています�
 
 <br/>
 
-彭塬鈞  
-博士（Ph.D.）
+彭塬钧
+博士
 
 本人毕业于韩国祥明大学全球文化内容学科，  
 已获得博士学位。

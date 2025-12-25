@@ -122,7 +122,7 @@ with an emphasis on cultural production, reception, and contextual meaning.
 
 ---
 
-### Research Background
+## Research Background
 
 My academic interest lies in cultural contents studies, with a particular focus on ACG (Animation, Comics, and Games) cultures and cultural hybridity in East Asia. My research is grounded in long-term engagement with Japanese popular culture and its transnational circulation, especially within contemporary Chinese digital media environments.
 

@@ -10,9 +10,9 @@
   <!-- 右侧：基本信息 -->
   <div style="flex: 1;">
 
-    <h2>PENG YUANJUN</h2>
+   <h2 style="margin-top: 0;">PENG YUANJUN</h2>
     <p>
-      Peng Yuanjun / 彭塬钧 / ほうげん（彭塬鈞）
+      Peng Yuanjun / 팽원균 / ほうげん（彭塬鈞）
     </p>
 
     <p><strong>Ph.D. (Doctor of Philosophy)</strong></p>

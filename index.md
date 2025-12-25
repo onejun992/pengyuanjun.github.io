@@ -104,6 +104,24 @@ with an emphasis on cultural production, reception, and contextual meaning.
 
 ---
 
+## Education
+
+- **Ph.D. in Global Cultural Contents**,  
+  Graduate School of Humanities and Social Sciences,  
+  Sangmyung University, Seoul, South Korea  
+  *(Originally enrolled in the M.A. program; formally transferred to the integrated M.A.–Ph.D. track)*  
+  (Mar 2022 – Feb 2026)
+
+- **M.A. coursework in Global Cultural Contents**,  
+  Graduate School of Humanities and Social Sciences,  
+  Sangmyung University, Seoul, South Korea (Sep 2020 – Feb 2022)
+
+- **B.A. in Korean–Japanese Cultural Contents**,  
+  College of Humanities and Social Sciences,  
+  Sangmyung University, Seoul, South Korea (Sep 2016 – Aug 2020)
+
+---
+
 ## Academic Service & Leadership
 
 - **Teaching Assistant**,  
@@ -135,22 +153,3 @@ with an emphasis on cultural production, reception, and contextual meaning.
   (Jul 2021 – May 2022)
 
 **Summary:** Demonstrated progressive leadership development, academic service experience, organizational management, and cross-cultural coordination within university and official educational frameworks.
-
----
-
-## Education
-
-- **Ph.D. in Global Cultural Contents**,  
-  Graduate School of Humanities and Social Sciences,  
-  Sangmyung University, Seoul, South Korea  
-  *(Originally enrolled in the M.A. program; formally transferred to the integrated M.A.–Ph.D. track)*  
-  (Mar 2022 – Feb 2026)
-
-- **M.A. coursework in Global Cultural Contents**,  
-  Graduate School of Humanities and Social Sciences,  
-  Sangmyung University, Seoul, South Korea (Sep 2020 – Feb 2022)
-
-- **B.A. in Korean–Japanese Cultural Contents**,  
-  College of Humanities and Social Sciences,  
-  Sangmyung University, Seoul, South Korea (Sep 2016 – Aug 2020)
-

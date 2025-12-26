@@ -1,12 +1,17 @@
 <style>
   /* === Mobile-friendly hero layout === */
 @media (max-width: 700px){
-  /* 1) 强制把第一屏变成上下结构，并且居中 */
-  .hero-wrap{
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    gap: 1.2rem !important;
+  .markdown-body > .hero-wrap{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+  /* 1) 联系方式：整块居中，内部左对齐 */
+  .contact-box{
+    margin: 0.9em auto 0 auto !important;
+    width: fit-content;
+    text-align: left;
   }
 
   /* 2) 左侧块整体居中（头像+联系方式） */
@@ -18,20 +23,21 @@
     text-align: center !important;
   }
 
-  /* 头像大小更精致 */
+  /* 头像大小更精致 + 居中 */
   .left-col img{
     width: 160px !important;
     margin: 0 auto !important;
     display: block !important;
   }
 
-  /* 3) 右侧块也居中并限制宽度 */
+  /* 3) 右侧块也限制宽度并居中 */
   .right-col{
     width: 100% !important;
     max-width: 420px !important;
     margin: 0 auto !important;
-    text-align: left !important; /* 文字建议左对齐更专业 */
   }
+
+}
 
   /* 4) 联系方式“整体居中”，但内容左对齐 */
   .contact-box{

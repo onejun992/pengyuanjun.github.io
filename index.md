@@ -1,85 +1,110 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-  /* ===== Hero layout ===== */
+/* ===== Contact icons (academic style) ===== */
+.academic-contacts{
+  margin-top: 0.9rem;
+  font-size: 0.95em;
+  line-height: 1.7;
+}
+
+/* contact item 行为 */
+.academic-contacts .contact-item{
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0.35rem 0;
+}
+
+/* 图标样式：统一黑色 */
+.academic-contacts .contact-item i{
+  width: 18px;
+  text-align: center;
+  color: #111 !important;
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+/* 链接本身不加下划线 */
+.academic-contacts a{
+  text-decoration: none;
+}
+
+/* hover 也保持黑色（不变蓝） */
+.academic-contacts a:hover i{
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
+/* ===== Icon-only contacts (SAFE, only for .icon-contacts) ===== */
+.icon-contacts{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+  margin-top: 0.9rem;
+}
+
+.icon-contacts .contact-item{
+  margin: 0;
+}
+
+.icon-contacts .contact-item a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 图标大小 */
+.icon-contacts .contact-item i{
+  font-size: 1.15rem;
+}
+
+/* 只隐藏文字（保留给读屏器） */
+.icon-contacts .sr-only{
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ===== 布局微调：左侧与正文对齐 ===== */
+.left-col{
+  margin-left: -14px; /* ← 核心：让头像 + 图标整体往左一点 */
+}
+
+/* ===== Mobile-only fixes (<=700px) ===== */
+@media (max-width: 700px){
   .hero-wrap{
-    display:flex;
-    gap:2rem;
-    align-items:flex-start;
-    flex-wrap:wrap; /* 避免窄屏时挤爆 */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.2rem !important;
   }
-  .left-col{
-    flex:0 0 220px;
-    text-align:center;
-  }
+
+  .left-col,
   .right-col{
-    flex:1;
-    min-width:260px;
+    width: 100% !important;
+    max-width: 420px !important;
+    margin: 0 auto !important;
   }
+
+  .left-col{
+    margin-left: 0 !important; /* 手机端不左移 */
+    text-align: center !important;
+  }
+
   .left-col img{
-    width:180px;
-    border-radius:10px;
-    display:block;
-    margin:0 auto;
+    width: 160px !important;
+    display: block !important;
+    margin: 0 auto !important;
   }
-
-  /* ===== Contact (base) ===== */
-  .academic-contacts{
-    margin-top:0.9rem;
-  }
-
-  /* ===== Icon-only contacts (只影响带 icon-contacts 的那一块) ===== */
-  .academic-contacts.icon-contacts{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:0.9rem;
-    align-items:center;
-  }
-  .academic-contacts.icon-contacts .contact-item{
-    margin:0;
-  }
-  .academic-contacts.icon-contacts .contact-item a{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    text-decoration:none;
-  }
-  .academic-contacts.icon-contacts .contact-item i{
-    font-size:1.15rem;
-    opacity:0.85;
-    cursor:pointer;
-  }
-  .academic-contacts.icon-contacts .contact-item a:hover i{
-    opacity:1;
-    color:#1a73e8;
-  }
-
-  /* 只隐藏文字，但给屏幕阅读器保留 */
-  .academic-contacts.icon-contacts .sr-only{
-    position:absolute !important;
-    width:1px !important;
-    height:1px !important;
-    padding:0 !important;
-    margin:-1px !important;
-    overflow:hidden !important;
-    clip:rect(0, 0, 0, 0) !important;
-    white-space:nowrap !important;
-    border:0 !important;
-  }
-
-  /* ===== Mobile (<=700px) ===== */
-  @media (max-width:700px){
-    .hero-wrap{
-      flex-direction:column;
-      align-items:center;
-      gap:1.2rem;
-    }
-    .left-col, .right-col{
-      width:100%;
-      max-width:420px;
-    }
-  }
+}
 </style>
 
 <div class="hero-wrap">

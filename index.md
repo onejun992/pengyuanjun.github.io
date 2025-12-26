@@ -103,9 +103,6 @@ I conduct in-depth analysis and interpretation of cultural commodities and media
 
 </details>
 
-
-</details>
-
 ---
 
 ## Research Background

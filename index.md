@@ -1,60 +1,49 @@
 <style>
   /* === Mobile-friendly hero layout === */
- @media (max-width: 700px){
+@media (max-width: 700px){
+  /* 1) 强制把第一屏变成上下结构，并且居中 */
   .hero-wrap{
-    flex-direction: column;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
     gap: 1.2rem !important;
-    align-items: center;            /* ✅ 整体居中 */
   }
+
+  /* 2) 左侧块整体居中（头像+联系方式） */
   .left-col{
     flex: 1 1 auto !important;
-    width: 100%;
-    max-width: 420px;
-    margin: 0 auto;
-    text-align: center;             /* ✅ 左侧内容居中 */
-  }
-  .left-col img{
-    width: 160px !important;        /* ✅ 头像略小更精致 */
-  }
-  .right-col{
-    width: 100%;
-    max-width: 420px;
-    margin: 0 auto;
+    width: 100% !important;
+    max-width: 420px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
   }
 
-  /* ✅ 联系方式在手机端改成“居中+块状”更舒服 */
-  .contact-box,
-  .contact-row{
-    text-align: left;
-    justify-content: center;
+  /* 头像大小更精致 */
+  .left-col img{
+    width: 160px !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  /* 3) 右侧块也居中并限制宽度 */
+  .right-col{
+    width: 100% !important;
+    max-width: 420px !important;
+    margin: 0 auto !important;
+    text-align: left !important; /* 文字建议左对齐更专业 */
+  }
+
+  /* 4) 联系方式“整体居中”，但内容左对齐 */
+  .contact-box{
+    width: fit-content !important;
+    margin: 0.9em auto 0 auto !important;
+    text-align: left !important;
   }
   .contact-row{
-    display: inline-flex;           /* ✅ 不撑满全宽，视觉更干净 */
+    display: flex !important;
+    justify-content: flex-start !important;
   }
 }
-
-
-  /* === Optional: nicer contact block spacing === */
-  .contact-box{
-    margin-top: 0.9em;
-    font-size: 0.9em;
-    line-height: 1.7;
-  }
-  .contact-row{
-    display: flex;
-    gap: 0.6em;
-    margin: 0.25em 0;
-  }
-  .contact-label{
-    min-width: 64px;
-    color: #666;
-  }
-  .contact-value a{
-    text-decoration: none;
-  }
-  .contact-value a:hover{
-    text-decoration: underline;
-  }
 
   /* === Replace double HR with a clean separator === */
   .section-sep{

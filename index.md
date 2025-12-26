@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
 /* ===== Mobile-only fixes (<=700px). Desktop unaffected ===== */
 @media (max-width: 700px){
@@ -62,39 +64,63 @@
     >
   </div>
 
-  <!-- 联系方式 / 学术档案 -->
-  <div style="margin-top: 0.8em; font-size: 0.9em; line-height: 1.8; text-align: left;">
+<!-- ===================== -->
+<!-- Academic Contact Info -->
+<!-- ===================== -->
+<div class="contact-box academic-contacts">
 
-    <div>📍 Seoul, South Korea</div>
-
-    <div>
-      📧 <a href="mailto:onejun992@163.com">onejun992@163.com</a><br>
-      <span style="margin-left: 1.2em;">
-        <a href="mailto:shadowpyj007@gmail.com">shadowpyj007@gmail.com</a>
-      </span>
-    </div>
-
-    <div>
-      🎓 <a href="https://scholar.google.com/citations?user=OCK6mWAAAAAJ&hl=en"
-            target="_blank" rel="noopener noreferrer">
-        Google Scholar
-      </a>
-    </div>
-
-    <div>
-      🐦 <a href="https://x.com/hibiki_v2022"
-            target="_blank" rel="noopener noreferrer">
-        X (Twitter)
-      </a>
-    </div>
-
+  <!-- Location -->
+  <div class="contact-item">
+    <i class="fa-solid fa-location-dot"></i>
+    <span>Seoul, South Korea</span>
   </div>
+
+  <!-- Primary Email -->
+  <div class="contact-item">
+    <i class="fa-regular fa-envelope"></i>
+    <a href="mailto:onejun992@163.com">onejun992@163.com</a>
+  </div>
+
+  <!-- Secondary Email -->
+  <div class="contact-item">
+    <i class="fa-regular fa-envelope"></i>
+    <a href="mailto:shadowpyj007@gmail.com">shadowpyj007@gmail.com</a>
+  </div>
+
+  <!-- Google Scholar -->
+  <div class="contact-item">
+    <i class="fa-solid fa-graduation-cap"></i>
+    <a href="https://scholar.google.com/citations?user=OCK6mWAAAAAJ&hl=en"
+       target="_blank" rel="noopener noreferrer">
+      Google Scholar
+    </a>
+  </div>
+
+  <!-- ORCID -->
+  <div class="contact-item">
+    <i class="fa-brands fa-orcid"></i>
+    <a href="https://orcid.org/0009-0003-4920-1890"
+       target="_blank" rel="noopener noreferrer">
+      ORCID
+    </a>
+  </div>
+
+  <!-- X (Twitter) -->
+  <div class="contact-item">
+    <i class="fa-brands fa-x-twitter"></i>
+    <a href="https://x.com/hibiki_v2022"
+       target="_blank" rel="noopener noreferrer">
+      X (Twitter)
+    </a>
+  </div>
+
 </div>
+
 
   <!-- 右侧：基本信息 -->
   <div class="right-col" style="flex: 1;">
 
-    <h2 style="margin-top: 0;">PENG YUANJUN</h2>
+    <h2 style="margin-top: 0;">Peng Yuanjun</h2>
 
     <!-- 一句话研究定位（Tagline） -->
     <p style="margin: 0.25em 0 0.5em 0; font-size: 1em; line-height: 1.35;">

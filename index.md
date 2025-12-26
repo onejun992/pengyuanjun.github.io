@@ -72,7 +72,7 @@
   </div>
 </div>
 
----
+<div class="section-sep"></div>
 
 ## Research Profile
 

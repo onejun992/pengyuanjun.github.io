@@ -5,12 +5,12 @@
   <!-- 一句话研究定位（Tagline） -->
   <p style="margin: 0.3em 0 0.6em 0; font-size: 1.05em;">
     Researcher in Cultural Contents Studies<br>
-    Cultural Hybridity, Japanese subculture (ACG cultural contents), and ACG cultures in East Asia
+    Cultural Hybridity, Japanese subculture (ACG cultural contents)
   </p>
 
   <!-- 多语言姓名 -->
   <p style="margin: 0.6em 0;">
-    팽원균 / ほうげんきん（彭源钧） / 彭源钧
+    팽원균 / ほうげんきん（彭塬鈞）/ 彭塬钧
   </p>
 
   <!-- 学位 -->

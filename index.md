@@ -302,6 +302,57 @@ aside.ap-sidebar .ap-profile-block{
 .ap-main .lang-zh p{
   margin-bottom: 1.4rem;
 }
+
+/* ===== Academic-style details / summary ===== */
+
+.ap-main details{
+  margin: 18px 0 22px;
+  padding: 0;
+}
+
+.ap-main details summary{
+  list-style: none;              /* 去掉默认三角 */
+  cursor: pointer;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;     /* 学术感关键 */
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
+  padding-left: 0;
+  position: relative;
+}
+
+/* 隐藏 Chrome 默认三角 */
+.ap-main details summary::-webkit-details-marker{
+  display: none;
+}
+
+/* 自定义一个很“学术”的小符号 */
+.ap-main details summary::before{
+  content: "▸";
+  display: inline-block;
+  margin-right: 8px;
+  color: #999;
+  font-size: 0.75rem;
+  transform: translateY(-1px);
+}
+
+/* 展开状态 */
+.ap-main details[open] summary{
+  color: #222;
+}
+
+.ap-main details[open] summary::before{
+  content: "▾";
+  color: #555;
+}
+
+/* details 内容区 */
+.ap-main details > div{
+  padding-left: 0;
+  margin-top: 6px;
+}
   
 </style>
 

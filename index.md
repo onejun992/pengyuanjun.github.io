@@ -468,11 +468,12 @@ main.ap-main details > summary strong{
 
 I received my Ph.D. in Cultural Contents from the Department of Global Cultural Contents at Sangmyung University, Korea.
 
-My primary field of research is Cultural Contents Studies, with cultural hybridity as a central conceptual framework.
-I focus in particular on Japanese subculture, otaku culture, and two-dimensional (ACG: animation, comics, and games) contents and cultures.
+My primary field of research is Cultural Contents Studies, with cultural hybridity theory and its perspectives forming the core theoretical framework of my research.
+I focus in particular on Japanese subculture, otaku culture, and two-dimensional · ACG (animation, comics, and games) cultural contents.
 
-Within the East Asian socio-cultural context, my research pays close attention to cultural export and reversed cultural flows,
-as well as processes of globalization, glocalization, and hybridization as forms of cultural transition.
+Within the socio-cultural context of East Asia and the contemporary new media environment, my research pays close attention to the relationships of integration between subculture and mainstream culture,
+as well as to phenomena of cultural export and reversed cultural flows of cultural contents,
+and analyzes processes of cultural transition and transformation such as globalization, glocalization, and hybridization.
 
 From the perspective of cultural contents re-creation and the reconstruction of meaning,
 I conduct in-depth analysis and interpretation of cultural commodities and media contents.
@@ -485,18 +486,20 @@ I conduct in-depth analysis and interpretation of cultural commodities and media
   <div class="lang-ko">
     <p>
       본인은 한국 상명대학교 글로벌문화콘텐츠학과 문화콘텐츠 전공에서 박사학위를 취득하였다.
-      주요 연구 분야는 문화콘텐츠학이며 문화적 혼종성(cultural hybridity)을 핵심 개념으로 삼아 연구를 수행하고 있다.
-      특히 일본 서브컬처, 오타쿠 문화, 및 2차원 ACG(애니메이션·만화·게임)의 콘텐츠 및 문화에 관심을 두고 있다.
+      주요 연구 분야는 문화콘텐츠학이며, 문화 혼종 이론 및 그 관점을 연구의 핵심 이론적 틀로 설정한다.
+      연구 방향은 일본 아문화, 오타쿠 문화, 그리고 2차원 · ACG(애니메이션·만화·게임)의 문화 콘텐츠에 집중된다.
     </p>
 
     <p>
-      동아시아 사회적 맥락에서 문화콘텐츠의 문화적 수출과 문화적 역류(reversed cultural flows),
-      그리고 글로벌화(globalization), 글로컬라이제이션(glocalization),
-      혼종화(hybridization) 등 문화 이행(cultural transition)의 다양한 양상에 주목한다.
+      동아시아 사회적 맥락과 뉴미디어 시대의 환경 속에서,
+      서브켤쳐와 주류문화 간의 융합 관계에 주목하고,
+      문화콘텐츠의 문화적 수출과 역수출 현상을 분석한다.
+      또한 글로벌화, 글로컬라이제이션, 혼종화 등 문화의 이행과 전환 과정을 분석한다.
     </p>
 
     <p>
-      또한 문화콘텐츠의 재창조와 의미 재구성이라는 관점에서
+      문화혼종 이론 및 그 관점에 기반하여,
+      문화콘텐츠 재창조와 의미 재구성의 관점에서
       문화상품 및 미디어 콘텐츠를 심층적으로 분석하고 해석한다.
     </p>
   </div>
@@ -509,21 +512,22 @@ I conduct in-depth analysis and interpretation of cultural commodities and media
 
   <div class="lang-ja">
     <p>
-      韓国・祥明大学グローバル文化コンテンツ学科（文化コンテンツ学専攻）にて博士号を取得。
-      主な研究分野は文化コンテンツ学であり、文化的混種性（cultural hybridity）を中心的な概念として研究を行っている。
-      特に日本のサブカルチャー、オタク文化、および二次元・ACG（アニメ・マンガ・ゲーム）の
-      コンテンツおよび文化に強い関心を持っている。
+      本人は韓国・祥明大学グローバル文化コンテンツ学科文化コンテンツ学専攻にて博士号を取得した。
+      主な研究分野は文化コンテンツ学であり、文化的混種に関する理論およびその見解を研究の中核的な理論枠組として位置づける。
+      研究方向は日本亜文化、御宅文化、ならびに二次元 · ACG（动画·漫画·游戏）の文化内容に集中する。
     </p>
 
     <p>
-      東アジアの社会的文脈において、文化コンテンツの文化的輸出および文化的逆流
-      （reversed cultural flows）、ならびにグローバル化、グローカル化、
-      混種化といった文化の移行（cultural transition）の諸過程に注目している。
+      東アジアの社会的文脈およびニューメディア時代の背景のもとで、
+      亜文化と主流文化のあいだの融合関係に注目し、
+      文化内容の文化的輸出および文化的逆輸出の現象を分析する。
+      さらに、グローバル化、グローカリゼーション、混種化など、文化の移行と転化の過程を分析する。
     </p>
 
     <p>
-      また、文化コンテンツの再創造と意味の再構築という観点から、
-      文化商品およびメディア・コンテンツを深層的に分析・解釈している。
+      文化的混種に関する理論およびその見解に基づき、
+      文化内容の再創造と意味重構の観点から、
+      文化商品および媒体内容を深層的に分析・解釈する。
     </p>
   </div>
 </details>
@@ -536,18 +540,21 @@ I conduct in-depth analysis and interpretation of cultural commodities and media
   <div class="lang-zh">
     <p>
       本人毕业于韩国祥明大学全球文化内容学科文化内容学专业，并取得博士学位。
-      主要研究领域为文化内容学，以文化混种为核心研究概念，
-      研究方向集中于日本亚文化、御宅文化以及二次元 ACG（动画、漫画、游戏）的内容及文化。
+      主要研究领域为文化内容学，并以文化混种理论及其观点作为研究的核心理论框架，
+      研究方向集中于日本亚文化、御宅文化以及二次元 · ACG（动画·漫画·游戏）的文化内容。
     </p>
 
     <p>
-      在东亚社会语境背景下，重点关注文化内容的文化输出与文化逆流，
-      以及全球化、全球本土化与混种化等文化迁移与转化过程。
+      在东亚社会语境与新媒体时代背景下，
+      重点关注亚文化与主流文化之间的融合关系，
+      以及文化内容的文化输出与文化逆输出现象，
+      并分析全球化、全球本土化与混种化等文化迁移与转化过程。
     </p>
 
     <p>
-      并从文化内容再创造与意义重构的角度出发，
-      对文化商品及媒体内容进行深层次的分析与诠释。
+      基于文化混种理论，
+      从文化内容再创造与意义重构的角度出发，
+      对文化商品及媒体内容进行深入的分析与诠释。
     </p>
   </div>
 </details>

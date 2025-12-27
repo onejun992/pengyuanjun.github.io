@@ -10,11 +10,13 @@ permalink: /cv/
 
 <br>
 
+## English CV
+
 # Peng Yuanjun
 
+**Email:** Available upon request  
 **Affiliation:** Independent Researcher / Ph.D. in Cultural Contents  
 **Location:** Seoul, South Korea  
-**Email:** Available upon request
 
 ---
 
@@ -23,7 +25,7 @@ permalink: /cv/
 - Cultural Contents Studies  
 - Cultural Hybridity  
 - Japanese Subculture  
-- Two-Dimensional · ACG (Animation / Comics / Games) Culture
+- **Two-Dimensional · ACG (Animation / Comics / Games) Culture**
 
 ---
 
@@ -31,7 +33,7 @@ permalink: /cv/
 
 **Ph.D. in Cultural Contents**  
 Graduate School, Sangmyung University  
-Seoul, South Korea
+Seoul, South Korea  
 
 ---
 
@@ -40,26 +42,26 @@ Seoul, South Korea
 ### Journal Articles
 
 Peng, Yuanjun, & Cho, Kyuheon. (2024).  
-* A Study of the Chinese Video Platform Bilibili from the Perspective of Cultural Hybridity:  
-  Focusing on the “Bainianji” (New Year Festival Program).*  
+*A Study of the Chinese Video Platform Bilibili from the Perspective of Cultural Hybridity:  
+Focusing on the “Bainianji” (New Year Festival Program).*  
 **The Journal of Foreign Studies**, Foreign Studies Institute.  
-DOI: https://doi.org/10.15755/jfs.2024..70.613
+DOI: https://doi.org/10.15755/jfs.2024..70.613  
 
 ---
 
-## Conference Proceedings
+### Conference Proceedings
 
 Peng, Yuanjun. (2024).  
-* A Study of the Chinese Video Platform Bilibili from the Perspective of Cultural Hybridity:  
-  Focusing on the “Bainianji” (New Year Festival Program).*  
+*A Study of the Chinese Video Platform Bilibili from the Perspective of Cultural Hybridity:  
+Focusing on the “Bainianji” (New Year Festival Program).*  
 Proceedings of the Global Cultural Contents Conference,  
 Global Cultural Contents Society, Vol. 2024, No. 8.  
-Available at: https://www.riss.kr/link?id=A109225174
+Available at: https://www.riss.kr/link?id=A109225174  
 
 Peng, Yuanjun. (2022).  
-* Examining the Relationship between the Chinese Video Platform Bilibili and  
-  ACG / Two-Dimensional Culture.*  
-Proceedings of the Korean Cultural Contents Joint Academic Conference.
+*Examining the Relationship between the Chinese Video Platform Bilibili and  
+ACG / Two-Dimensional Culture.*  
+Proceedings of the Korean Cultural Contents Joint Academic Conference.  
 
 ---
 
@@ -68,16 +70,16 @@ Proceedings of the Korean Cultural Contents Joint Academic Conference.
 ### Oral Presentation
 
 Peng, Yuanjun. (2024).  
-* A Study of the Chinese Video Platform Bilibili from the Perspective of Cultural Hybridity:  
-  Focusing on the “Bainianji” (New Year Festival Program).*  
-Global Cultural Contents Conference.
+*A Study of the Chinese Video Platform Bilibili from the Perspective of Cultural Hybridity:  
+Focusing on the “Bainianji” (New Year Festival Program).*  
+Global Cultural Contents Conference.  
 
 ### Poster Presentation
 
 Peng, Yuanjun. (2022).  
-* Examining the Relationship between the Chinese Video Platform Bilibili and  
-  ACG / Two-Dimensional Culture.*  
-Korean Cultural Contents Joint Academic Conference.
+*Examining the Relationship between the Chinese Video Platform Bilibili and  
+ACG / Two-Dimensional Culture.*  
+Korean Cultural Contents Joint Academic Conference.  
 
 ---
 
@@ -103,14 +105,62 @@ Korean Cultural Contents Joint Academic Conference.
   Sangmyung University (Mar 2019 – Jun 2019)
 
 - Director, Sangmyung University Chinese Students and Scholars Association (SMUCSSA),  
-  under the guidance of the Education Section, Embassy of the PRC in Korea  
-  (Mar 2021 – Jun 2021)
+  under the guidance of the Education Section,  
+  Embassy of the PRC in Korea (Mar 2021 – Jun 2021)
 
 - President, Sangmyung University Chinese Students and Scholars Association (SMUCSSA),  
-  under the guidance of the Education Section, Embassy of the PRC in Korea  
-  (Jul 2021 – May 2022)
+  under the guidance of the Education Section,  
+  Embassy of the PRC in Korea (Jul 2021 – May 2022)
 
-</details>
+---
+
+## Awards & Honors
+
+- Conference Presentation Award,  
+  Academic Festival, Department of Korean–Japanese Cultural Contents,  
+  Sangmyung University (Dec 2019)
+
+- Conference Presentation Award,  
+  Korean Cultural Contents Joint Academic Conference (Jun 2022)
+
+- Conference Presentation Award,  
+  Summer Conference of the Global Cultural Contents Society (Aug 2024)
+
+---
+
+## Projects & Research Activities
+
+- Book Chapter Contributor. *Corona Change*.  
+  Lettre Publishing, Jan 15, 2021. ISBN: 9791197230219
+
+- Book Chapter Contributor. *Immersed in Culture and Contents*.  
+  Lettre Publishing, Dec 30, 2021. ISBN: 9791197230233
+
+- Book Chapter Contributor. *Hallyu and Cultural Contents: Diverse Perspectives on Hallyu*.  
+  Lettre Publishing, Feb 6, 2023. ISBN: 9791197230264
+
+- Practice-based Research in Japanese Subculture and ACG Media.  
+  Conducted sustained digital cultural practice on Bilibili as a virtual streamer (V-Tuber),  
+  focusing on Japanese ACG culture, virtual performance, audience participation,  
+  and platform-mediated cultural interaction.
+
+---
+
+## Language Skills
+
+- Chinese (Mandarin): Native  
+- Korean: Near-native proficiency (TOPIK Level 6)  
+- Japanese: Intermediate (JLPT N5; continued study)
+
+---
+
+## Public Engagement & Media
+
+- Operated a China-oriented overseas cultural communication account on Sina Weibo  
+  with official Orange V verification, reaching approximately 128,000 followers (2014–2022).
+
+- Editorial contributor for a WeChat public account specializing in Korean food culture  
+  (Aug 2017 – Dec 2017).
 
 ---
 

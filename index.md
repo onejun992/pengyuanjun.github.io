@@ -1,208 +1,198 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-/* ===== Hero layout (top block) ===== */
-.hero-wrap{
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-
-  /* 核心：让整个头像+图标区域和正文左边对齐 */
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-.left-col{
-  flex: 0 0 220px;
-  margin-left: 0 !important;   /* 不再用负 margin，避免出现“忽大忽小/跑版” */
-  padding-left: 0 !important;
-}
-
-.left-col img{
-  width: 180px;
-  border-radius: 10px;
-  display: block;
-  margin: 0;                   /* 核心：图片左边不居中，和正文同一左边线 */
-}
-
-/* ===== Contact icons ===== */
-.icon-contacts{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  align-items: center;
-  justify-content: flex-start;  /* 核心：图标从左开始，跟图片左边线对齐 */
-  margin-top: 0.9rem;
-  padding-left: 0 !important;
-}
-
-.icon-contacts .contact-item{
-  margin: 0;
-}
-
-.icon-contacts .contact-item a{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
-/* 图标统一黑色 */
-.icon-contacts .contact-item i{
-  font-size: 1.15rem;
-  color: #111 !important;
-  opacity: 1 !important;
-  cursor: pointer;
-}
-
-/* hover 仍保持黑色 */
-.icon-contacts .contact-item a:hover i{
-  color: #000 !important;
-  opacity: 1 !important;
-}
-
-/* 只隐藏文字（保留给读屏器） */
-.icon-contacts .sr-only{
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-}
-
-/* ===== Mobile-only fixes (<=700px) ===== */
-@media (max-width: 700px){
-  .hero-wrap{
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 1.2rem !important;
+  :root{
+    --sidebar-w: 265px;
+    --gap: 38px;
+    --text: #111;
+    --muted: #666;
+    --line: #e9e9e9;
   }
 
-  .left-col,
-  .right-col{
-    width: 100% !important;
-    max-width: 420px !important;
-    margin: 0 auto !important;
+  /* ===== Academic Pages-like layout ===== */
+  .ap-wrap{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 28px 18px;
+    display: grid;
+    grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+    column-gap: var(--gap);
+    align-items: start;
   }
 
-  .left-col{
-    text-align: center !important;
+  /* Sidebar */
+  .ap-sidebar{ position: sticky; top: 22px; }
+
+  .ap-card{
+    border-right: 1px solid var(--line);
+    padding-right: 22px;
   }
 
-  .left-col img{
-    width: 160px !important;
-    margin: 0 auto !important;
+  .ap-avatar{
+    width: 170px;
+    height: 170px;
+    border-radius: 999px;
+    object-fit: cover;
+    display: block;
+    margin: 6px 0 14px 0;
   }
 
-  .icon-contacts{
-    justify-content: center !important;
+  .ap-name{
+    font-size: 1.28rem;
+    font-weight: 800;
+    color: var(--text);
+    margin: 0 0 6px 0;
+    line-height: 1.22;
   }
-}
+
+  .ap-sub{
+    color: var(--muted);
+    margin: 0 0 14px 0;
+    line-height: 1.55;
+    font-size: 0.95rem;
+  }
+
+  .ap-sub strong{ color: var(--text); font-weight: 750; }
+
+  /* Contact list (icon + text) */
+  .ap-contacts{
+    list-style: none;
+    padding: 0;
+    margin: 14px 0 0 0;
+  }
+
+  .ap-contacts li{ margin: 10px 0; }
+
+  .ap-contacts a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text);
+    line-height: 1.45;
+    font-size: 0.95rem;
+    word-break: break-word;
+  }
+
+  .ap-contacts a:hover{ text-decoration: underline; }
+
+  .ap-contacts i{
+    width: 18px;
+    text-align: center;
+    color: #444;
+    font-size: 0.98rem;
+    flex: 0 0 18px;
+  }
+
+  .ap-contacts .muted{ color: var(--muted); font-size: 0.92rem; }
+
+  /* Main content */
+  .ap-main{ min-width: 0; }
+
+  /* Divider (match your previous section-sep) */
+  .section-sep{
+    margin: 18px 0;
+    height: 1px;
+    background: var(--line);
+  }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 860px){
+    .ap-wrap{
+      grid-template-columns: 1fr;
+      row-gap: 18px;
+    }
+    .ap-sidebar{ position: static; top: auto; }
+    .ap-card{
+      border-right: none;
+      padding-right: 0;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 16px;
+    }
+    .ap-avatar{ width: 132px; height: 132px; }
+  }
 </style>
 
-<div class="hero-wrap">
-  <!-- Left: photo + contacts -->
-  <div class="left-col">
-    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo">
+<div class="ap-wrap">
 
-    <!-- Contact icons (icon-only) -->
-    <div class="contact-box icon-contacts">
+  <!-- ===== LEFT SIDEBAR (Academic Pages style) ===== -->
+  <aside class="ap-sidebar">
+    <div class="ap-card">
 
-      <!-- Location (restored) -->
-      <div class="contact-item">
-        <a href="https://www.google.com/maps/search/?api=1&query=Seoul%2C%20South%20Korea"
-           target="_blank" rel="noopener noreferrer"
-           title="Seoul, South Korea" aria-label="Location: Seoul, South Korea">
-          <i class="fa-solid fa-location-dot"></i>
-          <span class="sr-only">Seoul, South Korea</span>
-        </a>
-      </div>
+      <img class="ap-avatar" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo">
 
-      <!-- Email 1 -->
-      <div class="contact-item">
-        <a href="mailto:onejun992@163.com"
-           title="onejun992@163.com" aria-label="Email: onejun992@163.com">
-          <i class="fa-solid fa-envelope"></i>
-          <span class="sr-only">onejun992@163.com</span>
-        </a>
-      </div>
+      <h1 class="ap-name">Peng Yuanjun</h1>
 
-      <!-- Email 2 -->
-      <div class="contact-item">
-        <a href="mailto:shadowpyj007@gmail.com"
-           title="shadowpyj007@gmail.com" aria-label="Email: shadowpyj007@gmail.com">
-          <i class="fa-solid fa-envelope"></i>
-          <span class="sr-only">shadowpyj007@gmail.com</span>
-        </a>
-      </div>
+      <p class="ap-sub" style="margin-top:0.2rem;">
+        <strong>Researcher</strong> in Cultural Contents Studies<br>
+        Cultural Hybridity · Japanese Subculture (ACG cultural contents)
+      </p>
 
-      <!-- Google Scholar -->
-      <div class="contact-item">
-        <a href="https://scholar.google.com/citations?user=OCK6mWAAAAAJ&hl=en"
-           target="_blank" rel="noopener noreferrer"
-           title="Google Scholar" aria-label="Google Scholar">
-          <i class="fa-solid fa-graduation-cap"></i>
-          <span class="sr-only">Google Scholar</span>
-        </a>
-      </div>
+      <p class="ap-sub" style="margin-top:-0.3rem;">
+        팽원균 / ほうげんきん(彭塬鈞) / 彭塬钧<br>
+        <span class="muted">Ph.D. (Doctor of Arts)</span><br>
+        Department of Global Cultural Contents<br>
+        Major in Cultural Contents<br>
+        Sangmyung University, Seoul, South Korea
+      </p>
 
-      <!-- ORCID -->
-      <div class="contact-item">
-        <a href="https://orcid.org/0009-0003-4920-1890"
-           target="_blank" rel="noopener noreferrer"
-           title="ORCID: 0009-0003-4920-1890" aria-label="ORCID: 0009-0003-4920-1890">
-          <i class="fa-brands fa-orcid"></i>
-          <span class="sr-only">ORCID</span>
-        </a>
-      </div>
+      <ul class="ap-contacts">
 
-      <!-- X -->
-      <div class="contact-item">
-        <a href="https://x.com/hibiki_v2022"
-           target="_blank" rel="noopener noreferrer"
-           title="X (Twitter)" aria-label="X (Twitter)">
-          <i class="fa-brands fa-x-twitter"></i>
-          <span class="sr-only">X (Twitter)</span>
-        </a>
-      </div>
+        <li>
+          <a href="https://www.google.com/maps/search/?api=1&query=Seoul%2C%20South%20Korea"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>Seoul, South Korea</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:onejun992@163.com">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email (CN): onejun992@163.com</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:shadowpyj007@gmail.com">
+            <i class="fa-solid fa-at" aria-hidden="true"></i>
+            <span>Email: shadowpyj007@gmail.com</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://scholar.google.com/citations?user=OCK6mWAAAAAJ&hl=en"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            <span>Google Scholar</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://orcid.org/0009-0003-4920-1890"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-orcid" aria-hidden="true"></i>
+            <span>ORCID: 0009-0003-4920-1890</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://x.com/hibiki_v2022"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            <span>X (Twitter): @hibiki_v2022</span>
+          </a>
+        </li>
+
+      </ul>
 
     </div>
-    <!-- /Contact icons -->
-  </div>
-  <!-- /left-col -->
+  </aside>
 
-  <!-- Right: basic info -->
-  <div class="right-col">
-    <h2 style="margin-top:0;">Peng Yuanjun</h2>
+  <!-- ===== RIGHT MAIN CONTENT (原文一字不漏) ===== -->
+  <main class="ap-main">
 
-    <p style="margin:0.25em 0 0.6em; font-size:1em; line-height:1.35;">
-      Researcher in Cultural Contents Studies<br>
-      Cultural Hybridity, Japanese Subculture (ACG cultural contents)
-    </p>
-
-    <p style="margin:0.6em 0;">
-      팽원균 / ほうげんきん(彭塬鈞) / 彭塬鈞
-    </p>
-
-    <p style="margin:0.6em 0; color:#555;">
-      Ph.D. (Doctor of Arts)
-    </p>
-
-    <p style="margin:0.6em 0;">
-      Department of Global Cultural Contents<br>
-      Major in Cultural Contents<br>
-      Sangmyung University, Seoul, South Korea
-    </p>
-  </div>
-  <!-- /right-col -->
-</div>
-<!-- /hero-wrap -->
-
-<div class="section-sep"></div>
+    <div class="section-sep"></div>
 
 ## Research Profile
 
@@ -313,13 +303,13 @@ More broadly, my research aims to explore how cultural contents are produced, tr
   중국 동영상 플랫폼 비리비리(bilibili)와 ACG/2차원 문화의 관계성 고찰.  
   *Proceedings of the Korean Cultural Contents Joint Academic Conference*.
 
-  ### Doctoral Dissertation
+### Doctoral Dissertation
 
 - **Ph.D. Dissertation**  
   Sangmyung University, Seoul, South Korea.  
   (Details forthcoming)
 
-  ---
+---
 
 ## Education
 
@@ -499,3 +489,6 @@ a habit of analytical depth, anticipatory thinking, and long-term planning.
 Overall, I consider academic work to be grounded not only in intellectual ability,  
 but also in character, consistency, and responsibility. These values shape my approach  
 to research, collaboration, and engagement within both academic and cultural contexts.
+
+  </main>
+</div>

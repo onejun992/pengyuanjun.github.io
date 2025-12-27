@@ -163,6 +163,13 @@ aside.ap-sidebar .ap-focus .ap-value br + *{
   font-weight: 400;
   color: #444;
 }
+  
+/* 最后一个 section 下面也加分割线 */
+aside.ap-sidebar .ap-section:last-of-type{
+  border-bottom: 1.5px solid var(--line);
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
 
 /* ===== FINAL FINAL: force sidebar list + links ===== */
 
@@ -275,19 +282,18 @@ aside.ap-sidebar .ap-profile-block{
   <div class="ap-section ap-focus">
     <div class="ap-label">Research Focus</div>
     <div class="ap-value">
-      Cultural Contents Researcher<br>
+      Cultural Contents<br>
       Cultural Hybridity · Japanese Subculture · ACG(Animation, Comics, and Games) Contents
     </div>
   </div>
 
-  <!-- 2) Program -->
-  <div class="ap-section ap-program">
-    <div class="ap-label">Program</div>
-    <div class="ap-value">
-      Department of Global Cultural Contents<br>
-      Major in Cultural Contents
-    </div>
+  <<!-- 2) Academic Background -->
+<div class="ap-section ap-academic-bg">
+  <div class="ap-label">ACADEMIC BACKGROUND</div>
+  <div class="ap-value">
+    Major in Cultural Contents
   </div>
+</div>
 
   <!-- 3) Degree -->
   <div class="ap-section ap-degree">
@@ -305,6 +311,13 @@ aside.ap-sidebar .ap-profile-block{
     <i class="fa-solid fa-location-dot"></i>
     <span>Seoul, South Korea</span>
   </a>
+</li>
+
+<li>
+  <span>
+    <i class="fa-solid fa-building-columns"></i>
+    Sangmyung University
+  </span>
 </li>
 
 <li>
